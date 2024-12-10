@@ -1,3 +1,9 @@
+macro_vim: macro_vim{
+compatible = "zmk,behavior-macro";
+label = "macro_vim";
+#binding-cells = <0>;
+bindings = <&kp V>, <&kp I>, <&kp M>, <&kp SPACE>, <&kp PERIOD>, <&kp ENTER>;
+};
 macro_pin: macro_pin{
 compatible = "zmk,behavior-macro";
 label = "macro_pin";
